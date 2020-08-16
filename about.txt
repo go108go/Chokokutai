@@ -1,4 +1,0 @@
-About Chokokutai-Regular (彫刻体)
-
-Chokokutai-Regular (彫刻体) is a Japanese font. It does not include Kanji. 
-Hiragana (83), Katakana (86), Google Latin Core (215 or more), Google Latin Plus (370), Symbols (147 or more)
