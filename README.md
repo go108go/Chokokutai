@@ -1,3 +1,4 @@
+https://github.com/go108go/Chokokutai/blob/master/sample.png
 #彫刻体 (Chokokutai-Regular)
 漢字を含まない日本語フォント。木片あるいは石版に刻みつけた文字。
 A Japanese font that does not include kanji. Characters engraved on wood chips or slabs.
