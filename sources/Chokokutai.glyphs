@@ -1,25 +1,27 @@
 {
 .appVersion = "1342";
-copyright = "Copyright © 2019 by 108号,108go. All rights reserved.";
+copyright = "Copyright 2020 The Chokokutai Project Authors (https://github.com/go108go/Chokokuta), all rights reserved.";
 customParameters = (
 {
-name = glyphOrder;
-value = (
-.notdef,
-space
-);
-},
-{
-name = ROS;
-value = "Adobe-Identity-0";
+name = vendorID;
+value = FONZ;
 },
 {
 name = localizedFamilyName;
 value = "Japanese;彫刻体";
 },
 {
-name = vendorID;
-value = FONZ;
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = fsType;
+value = (
+);
 }
 );
 date = "2020-11-22 02:16:11 +0000";
@@ -29,7 +31,7 @@ familyName = Chokokutai;
 featurePrefixes = (
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn CRT;\012languagesystem latn AZE;\012languagesystem latn CAT;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
 name = Languagesystems;
 }
 );
@@ -46,7 +48,7 @@ name = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {\012	script latn;\012	language ROM;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012	language KAZ;\012	sub i by idotaccent;\012	language TAT;\012	sub i by idotaccent;\012	language TRK;\012	sub i by idotaccent;\012	language CRT;\012	sub i by idotaccent;\012	language AZE;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_1;\012";
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
@@ -71,12 +73,12 @@ name = liga;
 },
 {
 automatic = 1;
-code = "sub A by A.full;\012sub B by B.full;\012sub C by C.full;\012sub D by D.full;\012sub E by E.full;\012sub F by F.full;\012sub G by G.full;\012sub H by H.full;\012sub I by I.full;\012sub J by J.full;\012sub K by K.full;\012sub L by L.full;\012sub M by M.full;\012sub N by N.full;\012sub O by O.full;\012sub P by P.full;\012sub Q by Q.full;\012sub R by R.full;\012sub S by S.full;\012sub T by T.full;\012sub U by U.full;\012sub V by V.full;\012sub W by W.full;\012sub X by X.full;\012sub Y by Y.full;\012sub Z by Z.full;\012sub a by a.full;\012sub b by b.full;\012sub c by c.full;\012sub d by d.full;\012sub e by e.full;\012sub f by f.full;\012sub g by g.full;\012sub h by h.full;\012sub i by i.full;\012sub j by j.full;\012sub k by k.full;\012sub l by l.full;\012sub m by m.full;\012sub n by n.full;\012sub o by o.full;\012sub p by p.full;\012sub q by q.full;\012sub r by r.full;\012sub s by s.full;\012sub t by t.full;\012sub u by u.full;\012sub v by v.full;\012sub w by w.full;\012sub x by x.full;\012sub y by y.full;\012sub z by z.full;\012sub zero by zero.full;\012sub one by one.full;\012sub two by two.full;\012sub three by three.full;\012sub four by four.full;\012sub five by five.full;\012sub six by six.full;\012sub seven by seven.full;\012sub eight by eight.full;\012sub nine by nine.full;\012sub ampersand by ampersand.full;\012sub asterisk by asterisk.full;\012sub at by at.full;\012sub backslash by backslash.full;\012sub colon by colon.full;\012sub comma by comma.full;\012sub exclam by exclam.full;\012sub numbersign by numbersign.full;\012sub percent by percent.full;\012sub period by period.full;\012sub question by question.full;\012sub semicolon by semicolon.full;\012sub slash by slash.full;\012sub underscore by underscore.full;\012sub braceleft by braceleft.full;\012sub braceright by braceright.full;\012sub bracketleft by bracketleft.full;\012sub bracketright by bracketright.full;\012sub parenleft by parenleft.full;\012sub parenright by parenright.full;\012sub dollar by dollar.full;\012sub yen by yen.full;\012sub bar by bar.full;\012sub equal by equal.full;\012sub greater by greater.full;\012sub less by less.full;\012sub plus by plus.full;\012sub asciicircum by asciicircum.full;\012sub grave by grave.full;\012";
+code = "sub A by A.full;\012sub B by B.full;\012sub C by C.full;\012sub D by D.full;\012sub E by E.full;\012sub F by F.full;\012sub G by G.full;\012sub H by H.full;\012sub I by I.full;\012sub J by J.full;\012sub K by K.full;\012sub L by L.full;\012sub M by M.full;\012sub N by N.full;\012sub O by O.full;\012sub P by P.full;\012sub Q by Q.full;\012sub R by R.full;\012sub S by S.full;\012sub T by T.full;\012sub U by U.full;\012sub V by V.full;\012sub W by W.full;\012sub X by X.full;\012sub Y by Y.full;\012sub Z by Z.full;\012sub a by a.full;\012sub b by b.full;\012sub c by c.full;\012sub d by d.full;\012sub e by e.full;\012sub f by f.full;\012sub g by g.full;\012sub h by h.full;\012sub i by i.full;\012sub j by j.full;\012sub k by k.full;\012sub l by l.full;\012sub m by m.full;\012sub n by n.full;\012sub o by o.full;\012sub p by p.full;\012sub q by q.full;\012sub r by r.full;\012sub s by s.full;\012sub t by t.full;\012sub u by u.full;\012sub v by v.full;\012sub w by w.full;\012sub x by x.full;\012sub y by y.full;\012sub z by z.full;\012sub zero by zero.full;\012sub one by one.full;\012sub two by two.full;\012sub three by three.full;\012sub four by four.full;\012sub five by five.full;\012sub six by six.full;\012sub seven by seven.full;\012sub eight by eight.full;\012sub nine by nine.full;\012sub ampersand by ampersand.full;\012sub asterisk by asterisk.full;\012sub at by at.full;\012sub backslash by backslash.full;\012sub colon by colon.full;\012sub comma by comma.full;\012sub exclam by exclam.full;\012sub numbersign by numbersign.full;\012sub percent by percent.full;\012sub period by period.full;\012sub question by question.full;\012sub semicolon by semicolon.full;\012sub slash by slash.full;\012sub underscore by underscore.full;\012sub braceleft by braceleft.full;\012sub braceright by braceright.full;\012sub bracketleft by bracketleft.full;\012sub bracketright by bracketright.full;\012sub parenleft by parenleft.full;\012sub parenright by parenright.full;\012sub hyphen by hyphen.full;\012sub dollar by dollar.full;\012sub yen by yen.full;\012sub asciitilde by asciitilde.full;\012sub bar by bar.full;\012sub equal by equal.full;\012sub greater by greater.full;\012sub less by less.full;\012sub plus by plus.full;\012sub asciicircum by asciicircum.full;\012sub grave by grave.full;\012";
 name = fwid;
 },
 {
 automatic = 1;
-code = "sub asmall-hira by asmall-hira.vert;\012sub ismall-hira by ismall-hira.vert;\012sub usmall-hira by usmall-hira.vert;\012sub esmall-hira by esmall-hira.vert;\012sub osmall-hira by osmall-hira.vert;\012sub tusmall-hira by tusmall-hira.vert;\012sub yasmall-hira by yasmall-hira.vert;\012sub yusmall-hira by yusmall-hira.vert;\012sub yosmall-hira by yosmall-hira.vert;\012sub asmall-kata by asmall-kata.vert;\012sub ismall-kata by ismall-kata.vert;\012sub usmall-kata by usmall-kata.vert;\012sub esmall-kata by esmall-kata.vert;\012sub osmall-kata by osmall-kata.vert;\012sub kasmall-kata by kasmall-kata.vert;\012sub kesmall-kata by kesmall-kata.vert;\012sub tusmall-kata by tusmall-kata.vert;\012sub yasmall-kata by yasmall-kata.vert;\012sub yusmall-kata by yusmall-kata.vert;\012sub yosmall-kata by yosmall-kata.vert;\012sub wasmall-kata by wasmall-kata.vert;\012sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012sub hyphenminus.full by hyphenminus.full.vert;\012sub hyphen by hyphen.vert;\012sub horizontalbar by horizontalbar.vert;\012sub hyphentwo by hyphentwo.vert;\012sub wavedash by wavedash.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub comma-han by comma-han.vert;\012sub period-han by period-han.vert;\012sub equal.full by equal.full.vert;\012sub prolonged-kana by prolonged-kana.vert;\012";
+code = "sub asmall-hira by asmall-hira.vert;\012sub ismall-hira by ismall-hira.vert;\012sub usmall-hira by usmall-hira.vert;\012sub esmall-hira by esmall-hira.vert;\012sub osmall-hira by osmall-hira.vert;\012sub tusmall-hira by tusmall-hira.vert;\012sub yasmall-hira by yasmall-hira.vert;\012sub yusmall-hira by yusmall-hira.vert;\012sub yosmall-hira by yosmall-hira.vert;\012sub asmall-kata by asmall-kata.vert;\012sub ismall-kata by ismall-kata.vert;\012sub usmall-kata by usmall-kata.vert;\012sub esmall-kata by esmall-kata.vert;\012sub osmall-kata by osmall-kata.vert;\012sub kasmall-kata by kasmall-kata.vert;\012sub kesmall-kata by kesmall-kata.vert;\012sub tusmall-kata by tusmall-kata.vert;\012sub yasmall-kata by yasmall-kata.vert;\012sub yusmall-kata by yusmall-kata.vert;\012sub yosmall-kata by yosmall-kata.vert;\012sub wasmall-kata by wasmall-kata.vert;\012sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012sub hyphen by hyphen.vert;\012sub horizontalbar by horizontalbar.vert;\012sub hyphentwo by hyphentwo.vert;\012sub wavedash by wavedash.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub comma-han by comma-han.vert;\012sub period-han by period-han.vert;\012sub equal.full by equal.full.vert;\012sub prolonged-kana by prolonged-kana.vert;\012";
 name = vert;
 },
 {
@@ -86,7 +88,7 @@ name = vkna;
 },
 {
 automatic = 1;
-code = "sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012sub hyphenminus.full by hyphenminus.full.vert;\012sub hyphen by hyphen.vert;\012sub horizontalbar by horizontalbar.vert;\012sub hyphentwo by hyphentwo.vert;\012sub wavedash by wavedash.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub equal.full by equal.full.vert;\012";
+code = "sub asmall-hira by asmall-hira.vert;\012sub ismall-hira by ismall-hira.vert;\012sub usmall-hira by usmall-hira.vert;\012sub esmall-hira by esmall-hira.vert;\012sub osmall-hira by osmall-hira.vert;\012sub tusmall-hira by tusmall-hira.vert;\012sub yasmall-hira by yasmall-hira.vert;\012sub yusmall-hira by yusmall-hira.vert;\012sub yosmall-hira by yosmall-hira.vert;\012sub asmall-kata by asmall-kata.vert;\012sub ismall-kata by ismall-kata.vert;\012sub usmall-kata by usmall-kata.vert;\012sub esmall-kata by esmall-kata.vert;\012sub osmall-kata by osmall-kata.vert;\012sub kasmall-kata by kasmall-kata.vert;\012sub kesmall-kata by kesmall-kata.vert;\012sub tusmall-kata by tusmall-kata.vert;\012sub yasmall-kata by yasmall-kata.vert;\012sub yusmall-kata by yusmall-kata.vert;\012sub yosmall-kata by yosmall-kata.vert;\012sub wasmall-kata by wasmall-kata.vert;\012sub comma.full by comma.full.vert;\012sub period.full by period.full.vert;\012sub anglebracketleft by anglebracketleft.vert;\012sub anglebracketright by anglebracketright.vert;\012sub blacklenticularbracketleft by blacklenticularbracketleft.vert;\012sub blacklenticularbracketright by blacklenticularbracketright.vert;\012sub braceleft.full by braceleft.full.vert;\012sub braceright.full by braceright.full.vert;\012sub bracketleft.full by bracketleft.full.vert;\012sub bracketright.full by bracketright.full.vert;\012sub cornerbracketleft by cornerbracketleft.vert;\012sub cornerbracketright by cornerbracketright.vert;\012sub dblanglebracketleft by dblanglebracketleft.vert;\012sub dblanglebracketright by dblanglebracketright.vert;\012sub tortoiseshellbracketleft by tortoiseshellbracketleft.vert;\012sub tortoiseshellbracketright by tortoiseshellbracketright.vert;\012sub parenleft.full by parenleft.full.vert;\012sub parenright.full by parenright.full.vert;\012sub whitecornerbracketleft by whitecornerbracketleft.vert;\012sub whitecornerbracketright by whitecornerbracketright.vert;\012sub emdash by emdash.vert;\012sub endash by endash.vert;\012sub hyphen by hyphen.vert;\012sub horizontalbar by horizontalbar.vert;\012sub hyphentwo by hyphentwo.vert;\012sub wavedash by wavedash.vert;\012sub lowquotedoubleprime by lowquotedoubleprime.vert;\012sub quotedoubleprimeReversed by quotedoubleprimeReversed.vert;\012sub comma-han by comma-han.vert;\012sub period-han by period-han.vert;\012sub equal.full by equal.full.vert;\012sub prolonged-kana by prolonged-kana.vert;\012";
 name = vrt2;
 }
 );
@@ -94,24 +96,54 @@ fontMaster = (
 {
 ascender = 880;
 capHeight = 774;
+customParameters = (
+{
+name = typoAscender;
+value = 880;
+},
+{
+name = typoDescender;
+value = -120;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1160;
+},
+{
+name = winDescent;
+value = 288;
+},
+{
+name = hheaAscender;
+value = 1160;
+},
+{
+name = hheaDescender;
+value = -288;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = strikeoutPosition;
+value = 346;
+},
+{
+name = strikeoutSize;
+value = 50;
+}
+);
 descender = -120;
 id = "E2EFC82E-60BD-407F-B427-18737B8D95A5";
-xHeight = 488;
+xHeight = 486;
 }
 );
 glyphs = (
-{
-color = 11;
-glyphname = space;
-lastChange = "2019-11-24 13:10:46 +0000";
-layers = (
-{
-layerId = "E2EFC82E-60BD-407F-B427-18737B8D95A5";
-width = 350;
-}
-);
-unicode = 0020;
-},
 {
 color = 11;
 glyphname = A;
@@ -34473,7 +34505,7 @@ unicode = FE32;
 },
 {
 color = 5;
-glyphname = hyphenminus.full;
+glyphname = hyphen.full;
 lastChange = "2019-11-25 11:58:08 +0000";
 layers = (
 {
@@ -35232,7 +35264,7 @@ width = 1000;
 unicode = FE12;
 },
 {
-glyphname = ideographicspace;
+glyphname = "space-han";
 lastChange = "2019-11-23 07:57:00 +0000";
 layers = (
 {
@@ -35241,6 +35273,18 @@ width = 1000;
 }
 );
 unicode = 3000;
+},
+{
+color = 11;
+glyphname = space;
+lastChange = "2019-11-24 13:10:46 +0000";
+layers = (
+{
+layerId = "E2EFC82E-60BD-407F-B427-18737B8D95A5";
+width = 350;
+}
+);
+unicode = 0020;
 },
 {
 color = 11;
@@ -36719,32 +36763,6 @@ unicode = 2215;
 },
 {
 color = 5;
-glyphname = fullwidthtilde;
-lastChange = "2019-11-24 07:08:07 +0000";
-layers = (
-{
-layerId = "E2EFC82E-60BD-407F-B427-18737B8D95A5";
-paths = (
-{
-closed = 1;
-nodes = (
-"298 488 LINE",
-"298 487 LINE",
-"115 292 LINE",
-"298 368 LINE",
-"704 240 LINE",
-"887 435 LINE",
-"704 360 LINE"
-);
-}
-);
-width = 1000;
-}
-);
-unicode = FF5E;
-},
-{
-color = 5;
 glyphname = greateroverequal;
 lastChange = "2019-11-25 00:06:28 +0000";
 layers = (
@@ -37803,6 +37821,32 @@ width = 900;
 }
 );
 unicode = 2234;
+},
+{
+color = 5;
+glyphname = asciitilde.full;
+lastChange = "2019-11-24 07:08:07 +0000";
+layers = (
+{
+layerId = "E2EFC82E-60BD-407F-B427-18737B8D95A5";
+paths = (
+{
+closed = 1;
+nodes = (
+"298 488 LINE",
+"298 487 LINE",
+"115 292 LINE",
+"298 368 LINE",
+"704 240 LINE",
+"887 435 LINE",
+"704 360 LINE"
+);
+}
+);
+width = 1000;
+}
+);
+unicode = FF5E;
 },
 {
 color = 5;
