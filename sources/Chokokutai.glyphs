@@ -1,6 +1,6 @@
 {
-.appVersion = "1342";
-copyright = "Copyright 2020 The Chokokutai Project Authors (https://github.com/go108go/Chokokuta), all rights reserved.";
+.appVersion = "1349";
+copyright = "Copyright 2020 The Chokokutai Project Authors (https://github.com/go108go/Chokokutai), all rights reserved.";
 customParameters = (
 {
 name = vendorID;
